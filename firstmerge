@@ -1,0 +1,12 @@
+git clone https://github.com/Bobo5845/firstmerge.git
+cd first-merge
+
+git checkout -b bug-fix-typo
+git add README.md
+git commit -m "Fix typo in README.md"
+git checkout main
+git merge bug-fix-typo
+git add <file_conflitto_risolto>
+git commit
+git push origin main
+
